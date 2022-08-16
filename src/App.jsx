@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import Home from './paginas/Home';
 import './App.css'
+import Menu from './componentes/Menu';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
       <Home />
+
     </div>
   )
 }
