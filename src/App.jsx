@@ -16,6 +16,7 @@ function App() {
       <Routes>
       <Route path="/" element={<Container customClass = "lag-min"/>}>
           <Route path="/home" element={<Home />} />
+          <Route path="/aboutus" element={<Sobrenos />} />
           <Route path="/midia" element={<Midia/>} />
           <Route path="/sirva" element={<Sirva />} />
           <Route path="/agenda" element={<Agenda />} />

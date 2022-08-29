@@ -13,7 +13,7 @@ const NavBar = () => {
       </Link>
       <ul className={styles.list}>
         <li className={styles.item}>
-          <Link to="/">SOBRE NÓS</Link>
+          <Link to="/aboutus">SOBRE NÓS</Link>
         </li>
         <li className={styles.item}>
           <Link to="/midia">MULTIMÍDIA</Link>
