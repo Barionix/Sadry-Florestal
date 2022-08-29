@@ -1,13 +1,13 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Home from './componentes/pages/Home'
-import Midia from './componentes/pages/Midia'
-import Sirva from './componentes/pages/Sirva'
-import Agenda from './componentes/pages/Agenda'
-import Doe from './componentes/pages/Doe'
+import Home from './pages/Home/Home';
+import Midia from './pages/Midia/Midia'
+import Sirva from './pages/Sirva/Sirva'
+import Agenda from './pages/Agenda/Agenda'
+import Doe from './pages/Doe/Doe'
+import Container from './componentes/Containers/Container'
+import NavBar from './componentes/Menus/NavBar'
+import Footer from './componentes/Footer'
 
-import NavBar from './componentes/layout/NavBar'
-import Footer from './componentes/layout/Footer'
-import Container from './componentes/layout/Container'
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <NavBar />
       <Routes>
       <Route path="/" element={<Container customClass = "lag-min"/>}>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/midia" element={<Midia/>} />
           <Route path="/sirva" element={<Sirva />} />
           <Route path="/agenda" element={<Agenda />} />

@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
 
 import styles from './NavBar.module.css'
-import logo from '../imagens/logo_azul_minusc.png'
+import logo from '../../assets/imagens/logo_azul_minusc.png'
 
 const NavBar = () => {
   return (
